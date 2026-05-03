@@ -1,4 +1,12 @@
-# Contador de Divisas Colombianas — Pipeline YOLOv11
+# Contador de Divisas Colombianas — YOLOv11
+
+**Profesor: Ian Mateo Rodriguez Lopez**
+
+**Estudiantes:**
+
+- **William Alberto Suaza Losada**
+- **Holman Sanchez**
+- **Bairon Gutiérrez**
 
 Sistema de visión artificial _end-to-end_ que detecta y cuantifica monedas y billetes colombianos en imágenes y video, basado en transfer learning con YOLOv11s. Construido como entregable para el curso de Proyecto Innovación II (Maestría en Inteligencia Artificial).
 
