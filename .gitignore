@@ -1,0 +1,40 @@
+# Datos del dataset (no versionar imágenes pesadas)
+data/dataset/
+data/dataset_*/
+*.tar.xz
+*.tar
+*.zip
+
+# Modelos (los .pt pueden ser pesados)
+models/*.pt
+runs/
+
+# Salidas de inferencia
+outputs/inference_images/*
+outputs/inference_videos/*
+outputs/edge/*
+!outputs/inference_images/.gitkeep
+!outputs/inference_videos/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pesos descargados de YOLO en raíz
+yolo*.pt
+!models/yolo*.pt
