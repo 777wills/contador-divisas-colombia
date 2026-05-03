@@ -12,7 +12,6 @@ runs/
 # Salidas de inferencia
 outputs/inference_images/*
 outputs/inference_videos/*
-outputs/edge/*
 !outputs/inference_images/.gitkeep
 !outputs/inference_videos/.gitkeep
 
